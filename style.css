@@ -1,0 +1,64 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-image: url(https://th.bing.com/th/id/R.1fe91bc0c8bfb0d58cb0b00715e9f4e2?rik=fZRPI8Cqk4g%2biA&pid=ImgRaw&r=0);
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid rgb(245, 245, 245);
+    display: inline-block;
+    margin: -2px;
+}
+
+.boxBlack{
+   background-color: black;
+   width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px; 
+}
+
+.cavalo img{
+    animation: movimento-cavalo 10s infinite;
+    position: absolute;
+    top: 15px;
+    left: 730px;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes  movimento-cavalo{
+    0%{top: 15px; left: 730px;}
+    5%{top: 105px; left: 730px;}
+    10%{top: 185px; left: 730px;}
+    15%{top: 185px; left: 730px;}
+    20%{top: 185px; left: 815px;}
+    25%{top: 275px; left: 815px;}
+    35%{top: 345px; left: 815px;}
+    40%{top: 345px; left: 890px;}
+    45%{top: 425px; left: 890px;}
+    50%{top: 510px; left: 890px;}
+    55%{top: 510px; left: 980px;}
+    60%{top: 510px; left: 1050px;}
+    62%{top: 510px; left: 1145px;}
+    64%{top: 595px; left: 1145px;}
+   66%{top: 595px; left: 1145px;}
+   68%{top: 510px; left: 1145px;}
+   70%{top: 510px; left: 1050px;}
+   72%{top: 510px; left: 980px;}
+   74%{top: 510px; left: 890px;}
+   76%{top: 425px; left: 890px;}
+   78%{top: 345px; left: 890px;}
+   80%{top: 345px; left: 815px;}
+   82%{top: 275px; left: 815px;}
+   84%{top: 185px; left: 815px;}
+   86%{top: 185px; left: 730px;}
+   88%{top: 185px; left: 730px;}
+   90%{top: 105px; left: 730px;}
+   100%{top: 15px; left: 730px;}
+    
+}
